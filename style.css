@@ -1,0 +1,12 @@
+@import "forecast.css";
+@import "header.css";
+@import "locaAndTemp.css";
+
+#page{
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f6f5;
+}
+
+
+

@@ -1,0 +1,138 @@
+
+.block{
+    display: inline-block;
+}
+
+#headerBlock{
+    background-image:url("images/blue-sky.jpg");
+    background-repeat: no-repeat;
+    /*background-size: 100% 100%;*/
+    /*background-position: center;*/
+    background-size: cover;
+    background-position: top;
+
+    position: relative;
+
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#headerText{
+    font-size: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#weatherIcon{
+    /*transform: scale(0.8);*/
+    margin-bottom: 0px;
+    margin-top: 45px;
+}
+
+#temperature{
+    font-size: 80px;
+    font-weight: bold;
+    /*position: relative;*/
+}
+
+#temperatureUnit{
+    position: absolute;
+    top: 73px;
+    right: -25px;
+    /*vertical-align: top;*/
+    /*margin-top: 45px;*/
+}
+
+.image{
+    margin: 20px;
+    display: inline-block;
+    vertical-align: center;
+    padding-top: 10px;
+}
+
+#humidityimg{
+    transform: scale(2);
+}
+
+#rainfallimg{
+    transform: scale(1.5);
+    padding-top: 50px;
+}
+
+#UVlevelimg{
+    transform: scale(1.5);
+    padding-top: 60px;
+}
+
+#humidity{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+#rainfall{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+#UVlevel{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.unit{
+    font-size: 23px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+#lastUpdateTime{
+    font-size: 20px;
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    float: left;
+    margin-bottom: 0;
+}
+
+#headerBttn{
+    font-size: 20px;
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+
+    border-radius: 10px;
+    border-width: 0px;
+    background-color: #f07f81;
+
+
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    float: left;
+}
+
+.headerElement{
+    display: inline-block;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    vertical-align: center;
+    position: relative;
+}
+
+#headerArray{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin-bottom: 0px;
+}

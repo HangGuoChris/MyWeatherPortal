@@ -448,7 +448,8 @@ function fetchForecastInfo(){
 }
 
 function showSelectedTemperature(locationIndex){
-    fetch('https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=rhrread&lang=en')
+    //fetch('https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=rhrread&lang=en')
+    fetch('https://hangguochris.github.io/MyWeatherPortal/data/data/weather-Feb26-raining-night.json')
         .then(response => {
             if(response.status == 200){
                 response.json().then( data =>{
